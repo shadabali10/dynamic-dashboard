@@ -1,0 +1,39 @@
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+  }
+  
+  .module {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .module-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .module-content {
+    margin-top: 10px;
+  }
+  
+  .module img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .theme1 {
+    background-color: #ffcc00;
+  }
+  
+  .theme2 {
+    background-color: #00ccff;
+  }
+  
+  .theme3 {
+    background-color: #cc00ff;
+  }
+  
